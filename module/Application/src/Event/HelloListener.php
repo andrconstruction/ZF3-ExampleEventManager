@@ -30,7 +30,7 @@ class HelloListener implements ListenerAggregateInterface
         // Retrieving data from the controller
         $data = $event->getParams();
 
-        // Example event
-        //var_dump("EXAMPLE EVENT WITH ZF3 RETURN MESSAGE: Hello World");
+        // Example return message event listener
+        echo "Hello!";
     }
 }
